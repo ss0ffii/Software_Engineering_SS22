@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  connect-four:
+    build: .
+    image: connect-four:latest
+    volumes: 
+      - data:/usr/data
+volumes:
+  data:
